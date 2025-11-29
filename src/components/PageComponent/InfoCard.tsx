@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from "react"
-import { InfoTip } from "../InfoTip"
 import Available from "../Available"
 import { chiragBio, chiragName } from "@/data/ChiragData/data"
 import { FaFilePdf } from "react-icons/fa"

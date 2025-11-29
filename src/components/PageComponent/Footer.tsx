@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="flex flex-col gap-4 items-center text-center px-4">
         {quote && (
           <p className="text-sm italic text-zinc-400 max-w-2xl">
-            "{quote}"
+            &ldquo;{quote}&rdquo;
           </p>
         )}
         <div className="flex flex-col gap-1">

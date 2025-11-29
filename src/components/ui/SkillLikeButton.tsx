@@ -14,7 +14,11 @@ export default function SkillLikeButton({ as = "button", href, className, childr
 
   if (as === "a" && href) {
     return (
-      <a href={href} className={clsx(base, className)} {...(rest as any)}>
+      <a 
+      href={href} 
+      className={clsx(base, className)} 
+      {...(rest as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
+    >
         {children}
       </a>
     )

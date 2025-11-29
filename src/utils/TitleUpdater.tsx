@@ -2,13 +2,13 @@
 
 import { usePathname } from "next/navigation"
 import { useEffect } from "react"
-import { rinkitName } from "@/data/ChiragData/data"
+import { chiragName } from "@/data/ChiragData/data"
 
 export const TitleUpdater = () => {
   const pathname = usePathname()
 
   useEffect(() => {
-    const baseTitle = rinkitName
+    const baseTitle = chiragName
     let title = baseTitle
     
     if (pathname === "/") {

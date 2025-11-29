@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image"
 import { chiragLink } from "@/data/ChiragData/data"
-import { InfoTip } from "../InfoTip"
 import { useState } from "react"
 
 const Nav = () => {
