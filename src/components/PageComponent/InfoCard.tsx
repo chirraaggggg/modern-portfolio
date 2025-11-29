@@ -5,7 +5,7 @@ import { chiragBio, chiragName } from "@/data/ChiragData/data"
 import { FaFilePdf } from "react-icons/fa"
 import { AnimatePresence } from "framer-motion"
 import { motion } from "framer-motion"
-import Image from "next/image
+import Image from "next/image"
 
 const InfoCard: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false)
