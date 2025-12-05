@@ -4,7 +4,7 @@ import LocalTime from "@/utils/LocalTime"
 
 const Banner: React.FC = () => {
   return (
-    <section className="md:fixed md:top-4 flex w-full items-center justify-end md:justify-start md:px-8 px-4 select-none">
+    <section className="fixed top-4 right-4 md:right-8 z-40 select-none">
       <a
         href="https://www.google.com/search?q=time"
         target="_blank"

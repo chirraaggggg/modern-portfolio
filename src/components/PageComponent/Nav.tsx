@@ -11,7 +11,7 @@ const Nav = () => {
   }
 
   return (
-    <div className="fixed top-4 left-0 right-0 flex justify-center items-center">
+    <div className="fixed bottom-4 left-0 right-0 flex justify-center items-center">
       <div className="relative bg-mainBlack border border-zinc-700 px-4 py-2.5 rounded-xl flex items-center gap-4">
         <div className="flex gap-5 items-center">
           {chiragLink.map((link) => (
@@ -40,13 +40,14 @@ const Nav = () => {
           />
         </div>
         {isArrowVisible && (
-          <div id="arrow" className="absolute -bottom-9 right-0">
+          <div id="arrow" className="absolute -top-10 right-0 z-50">
             <Image
               src="/assets/Images/gif/arrow.gif"
               alt="arrow"
-              className="size-12"
-              width={100}
-              height={100}
+              className="w-12 h-12"
+              width={48}
+              height={48}
+              priority
             />
           </div>
         )}
